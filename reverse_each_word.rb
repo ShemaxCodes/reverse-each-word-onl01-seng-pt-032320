@@ -1,5 +1,5 @@
-def reverse_each_word(sentence)
-  string = sentence.split(" ")
+def reverse_each_word(sentence1)
+  string = sentence1.split(" ")
   reversed_word = string.each { |word| word.reverse!}
   return reversed_word.join(" ")
 end
