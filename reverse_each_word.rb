@@ -1,3 +1,5 @@
 def reverse_each_word(string)
-      return string.split(" ").scramble.reverse.join(" ")
+  reversed_string = []
+  
+      
 end
